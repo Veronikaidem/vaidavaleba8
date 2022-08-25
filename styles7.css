@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 30px;
+
+}
+
+header ul{
+        width: 596px;
+        margin-left: 400px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+
+}
+header ul a{
+    width: 100px;
+    background-color:#C4C4C4;
+    padding: 24px 26px;
+    border-radius: 0px 35px 0px 35px;
+    color: #000;
+}
+
+header ul a:hover{
+    background-color: #79B331;
+    color: #fff;
+}
+body{
+    
+    background-image: url(photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+ .saati{
+    width: 400px;
+    height: 150px;
+    margin: 50px auto;
+    text-align: center;
+    
+    
+
+}
+
+
+.burti{
+    height: 30px;
+    width: 30px;
+     margin-bottom: 30px; 
+    background-color: #79B331;
+    border-radius: 50%;
+     position: relative; 
+    animation: davigale 2s infinite;
+}
+
+    
+
+@keyframes davigale {
+    0%{top:0; left:0;}
+    25%{top:0; left:370px;}
+    50%{top:120px; left:370px}
+    75%{top:120px; left:0}
+    100%{top:0; left:0;}
+}
+
+.container{
+    width: 700px;
+    height: 700px;
+    position: relative;
+    left: 500px;
+}
+
+
+
+.xazi{
+    width: 2px;
+    height: 100%;
+    background-color: #000;
+    margin: 0 auto;
+}
+
+.xe{
+    width: 300px;
+    height: 100px;
+    /* background-color: magenta; */
+    margin: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 45px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.mwvane{
+   
+    width:80%; 
+}
+
+.mwvane:hover{
+    color: #79B331;
+    cursor: pointer;
+}
+ .xe1{
+    position: absolute;
+    top: 0;
+    left: 45px;
+}
+
+.xe2{
+    position: absolute;
+    top:400px;
+    left: 45px;
+}
+
+.xe3{
+    position:absolute;
+    top:200px;
+    right: 45px;
+}
+
+
+
+ .fotoli{
+    width: 70px;
+    height: 70px;
+    background-color:#C4C4C4;
+    border-radius: 0 35px 0 35px;
+   
+} 
+.fotoli1, .fotoli2{
+    transform: rotate(90deg);
+}
+
+.fotoli:hover{
+    background-color: rgb(19, 162, 17);;
+    
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    header{
+        display: none;
+    }
+    body{
+         width: 30%; 
+        height: 100vh;
+        overflow: hidden; 
+    } 
+    .saati{
+        
+         margin-left: 450px; 
+        width: 50%;
+        
+    }
+
+    
+
+
+    .xazi{
+      float: right;
+      position: relat
+      ;
+    }
+    .container{
+        flex-wrap: wrap;
+        position: relative;
+          left: 400px;
+          top: 440px;
+    }
+    .xe{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        bottom: 52px;
+        right: -41px;
+        
+
+    }
+    .fotoli{
+        transform: rotate(90deg);
+        display: flex;
+       justify-content: flex-end;
+       position: absolute;
+        right: 60px;
+    }
+   
+}
+
+@media only screen and (max-width: 1024px) {
+    
+
+    
+
+}
+
